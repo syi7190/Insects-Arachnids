@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 500px;
+      height:350px;
+      margin: auto;
+  }
+  body{
+      background-image:url("http://cdn.paper4pc.com/images/green-forest-wallpaper-5.jpg");
+  }
+  .well-lg{
+      background-color:black;
+      color:white;
+      opacity:0.9;
+  }
+  .jumbotron{
+      color:white;
+      background: black;
+      background: -webkit-linear-gradient(black, darkred);
+      background: -o-linear-gradient(black, darkred);
+      background: -moz-linear-gradient(black, darkred);
+      background: linear-gradient(black, darkred);
+      text-align:center;
+      font-size:18pt;
+  }
+  .panel-default{
+    background: #ff8080;
+    background: -webkit-linear-gradient(#ff8080, yellow);
+    background: -o-linear-gradient(#ff8080, yellow);
+    background: -moz-linear-gradient(#ff8080, yellow);
+    background: linear-gradient(#ff8080, yellow);
+}
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Insects/Arachnids</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="file:///Z:/Project/Index.html#">Home <span class="glyphicon glyphicon-home"></span></a></li> 
+      <li><a href="file:///Z:/Project/Page2.html#">Useful Insects/Arachnids</a></li>
+      <li><a href="file:///Z:/Project/Page3.html">Past Insects/Arachnids <span class="glyphicon glyphicon-book"></span></a></li>
+      <li><a href="file:///Z:/Project/Page4.html">Unique Insects/Arachnids</a></li> 
+      <li class="active"><a href="#">Dangerous Insects/Arachnids</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="conatainer">
+<div class="jumbotron">Dangerous Insects/Arachnids</div>
+</div>
+<div class="row">
+ <div class="col-md-6">
+  <div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+        Fire Ants</a>
+      </h4>
+    </div>
+    <div id="collapse1" class="panel-collapse collapse in">
+      <div class="panel-body">Fire Ants are agrressive and will attack if disturbed. The bite/sting of a Fire Ant injects a toxic venom that feels like fire. Fire Ants can overpower almost anything because they go in swarms.These Ants can make a raft (made by themselves) to go over water.</div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+        Black Widow Spider</a>
+      </h4>
+    </div>
+    <div id="collapse2" class="panel-collapse collapse">
+      <div class="panel-body">A female Black Widow Spider is considered the most venomous spider in North America. Its venom was said to be 15 times as toxic as the venom of the Prairie Rattlesnake. Luckily for us spiders are nonaggressive and only bites if threatened.</div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+        Giant Asian Hornet</a>
+      </h4>
+    </div>
+    <div id="collapse3" class="panel-collapse collapse">
+      <div class="panel-body">This hornet is known to be the largest hornet in the world. Not only is it big but its also extremely dangerous, its sting can damage the tissues. The sting of the Giant Asian Hornet was said to feel "like a hot nail being driven into my leg".</div>
+    </div>
+   </div>
+   </div>
+   </div>
+
+ 
+ <br>
+<div class="col-md-6">
+ <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="http://www.mosquitobarrier.com/images/Fire_Ant.jpg" alt="Insect">
+      <div class="carousel-caption">
+        <h3>Fire Ants</h3>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/8f/Latrodectus_hasseltii_close.jpg" alt="Insect">
+      <div class="carousel-caption">
+        <h3>Black Widow Spider</h3>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="https://i.ytimg.com/vi/O8BUWxh9xEY/maxresdefault.jpg" alt="Insect">
+      <div class="carousel-caption">
+        <h3>Giant Asian Hornet</h3>
+      </div>
+    </div>
+
+  </div>
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  </div>
+ </div>
+</div>
+</div>
+<br>
+<div class="alert alert-danger">
+  <strong>Danger!</strong> These Insects can potentially kill you! <span class="glyphicon glyphicon-warning-sign"></span>
+</div>
+</body>
+</html>

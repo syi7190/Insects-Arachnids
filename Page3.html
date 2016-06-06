@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      height: 425px;
+      margin: auto;
+  }
+  body{
+      background-image:url("http://cdn.paper4pc.com/images/green-forest-wallpaper-5.jpg");
+  }
+  .col-sm-4{
+      opacity:0.9;
+      background-color:black;
+      color:white;
+      border-radius:5px;
+  }
+  .alert-warning{
+      text-align:center;
+  }
+  .well-lg{
+    font-size:12pt;
+    font-family:bold;
+    text-align:center;
+    height: 75px;
+    background: tan;
+    background: -webkit-linear-gradient(tan, white);
+    background: -o-linear-gradient(tan, white);
+    background: -moz-linear-gradient(tan, white);
+    background: linear-gradient(tan, white);
+}
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Insects/Arachnids</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="file:///Z:/Project/Index.html#">Home <span class="glyphicon glyphicon-home"></span></a></li> 
+      <li><a href="file:///Z:/Project/Page2.html#">Useful Insects/Arachnids</a></li>
+      <li class="active"><a href="#">Past Insects/Arachnids <span class="glyphicon glyphicon-book"></span></a></li>
+      <li><a href="file:///Z:/Project/Page4.html">Unique Insects/Arachnids</a></li> 
+      <li><a href="file:///Z:/Project/Page5.html">Dangerous Insects/Arachnids</a></li>
+    </ul>
+  </div>
+</nav>
+<div id="P3">
+<div class="row">
+    <div class="col-sm-6">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+<div class="alert alert-warning">
+   <strong><span class="glyphicon glyphicon-book"></span></strong> All these Insects/Arachnids are extinct!
+  <button type="button" data-toggle="collapse" data-target="#demo">
+  Reason?
+</button>
+ <div id="demo" class="collapse">
+      These Insects couldn't survive today's oxygen levels.
+ </div>
+ </div>
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="https://i.ytimg.com/vi/9kzorrSbaUA/maxresdefault.jpg" alt="Insect">
+      <div class="carousel-caption">
+        <h3>M. permiana</h3>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="https://regmedia.co.uk/2015/09/01/sea_scorpion_teaser.jpg?x=1200&y=794" alt="Insect">
+      <div class="carousel-caption">
+        <h3>J. rhenaniae</h3>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="http://vignette1.wikia.nocookie.net/landbeforetime/images/7/7a/Arthropluera.jpg/revision/latest?cb=20160331231313" alt="Insect">
+      <div class="carousel-caption">
+        <h3>Arthropleura</h3>
+      </div>
+    </div>
+  </div>
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+<br>
+<div class="col-sm-6">
+<div class="well well-lg">Past Insects/Arachnids</div>
+ <div class="row">
+   <div class="col-sm-4">M. permiana</div>
+   <div class="col-sm-4">J. rhenaniae</div>
+   <div class="col-sm-4">Arthropleura</div>
+  </div>
+<li class="divider"></li>
+  <div class="row">
+   <div class="col-sm-4">Was known to have a wingspan of more than 2ft and a body that was about 17 inches. The M. permiana may have fed on large frogs and squirrels because of its immense size. This creature was known as the biggest insect of all time.</div>
+   <div class="col-sm-4">The J. rhenaniae was known to grow up to 8ft and its pincers were more than 18 inches long. This creature was truly a monstrous sea scorpion. These enormous creatures was said to be big because of the oxygen levels in the atmosphere.</div>
+   <div class="col-sm-4">The Arthropleura was an ancestor to the centipede and millipede and could reach more than 8ft in length. This was the largest invertebrate species that was ever unearthed. This is a creature that you don't want to come across.</div>
+  </div>
+  </div>
+ </div>
+</body>
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 500px;
+      height: 350px;
+      margin: auto;
+  }
+  body{
+      background-image:url("http://cdn.paper4pc.com/images/green-forest-wallpaper-5.jpg");
+  }
+  .well-lg{
+      background-color:black;
+      color:white;
+  }
+  .jumbotron{
+    height: 325px;
+    background: orange;
+    background: -webkit-linear-gradient(orange, yellow);
+    background: -o-linear-gradient(orange, yellow);
+    background: -moz-linear-gradient(orange, yellow);
+    background: linear-gradient(orange, yellow);
+}
+ .well-md{
+    color:white;
+    height: 75px;
+    background: black;
+    background: -webkit-linear-gradient(black, gray);
+    background: -o-linear-gradient(black, gray);
+    background: -moz-linear-gradient(black, gray);
+    background: linear-gradient(black, gray);
+}
+.well-sm{
+    height: 250px;
+    background: gray;
+    background: -webkit-linear-gradient(gray, white);
+    background: -o-linear-gradient(gray, white);
+    background: -moz-linear-gradient(gray, white);
+    background: linear-gradient(gray, white);
+}
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Insects/Arachnids</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home <span class="glyphicon glyphicon-home"></span></a></li>
+      <li><a href="file:///Z:/Project/Page2.html#">Useful Insects/Arachnids</a></li>
+      <li><a href="file:///Z:/Project/Page3.html">Past Insects/Arachnids <span class="glyphicon glyphicon-book"></span></a></li> 
+      <li><a href="file:///Z:/Project/Page4.html">Unique Insects/Arachnids</a></li> 
+      <li><a href="file:///Z:/Project/Page5.html">Dangerous Insects/Arachnids</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="container">
+  <div class="jumbotron">
+    <h1>Insects and Arachnids</h1>      
+    <p>Welcome!</p>
+    
+    <!--Get more imgs-->
+    
+<button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModal"><p>Insects/Arachnids around the World <span class="glyphicon glyphicon-globe"></span></p> </button>
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Insects/Arachnids around the world! <span class="glyphicon glyphicon-globe"></span></h4>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+  <div class="col-sm-4"><div class="well well-md">Devil's Flower Mantis</div></div>
+  <div class="col-sm-4"><div class="well well-md">Extatosoma Tiaratum</div></div>
+  <div class="col-sm-4"><div class="well well-md">Scorpionflies (Mecoptera)</div></div>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+  <div class="col-sm-4"><div class="well well-sm">The Devil's Flower Mantis can mimic the colors of the Devil's Flower which is an orchid. This type of Mantis gets stressed easily by being handled or disturbed by pet and humans.</div></div>
+  <div class="col-sm-4"><div class="well well-sm">The Extatosoma Tiaratum is a type of stick insect that is covered in thorny spikes. This insect can also release a chemical that smells like peanut butter to humans.</div></div>
+  <div class="col-sm-4"><div class="well well-sm">The Scorpionfly looks like a mixture of a scorpion, a fly and a wasp. These types of flies were around since the Mesozoic age. These flies can not sting and the female doesn't even have the "stinger".</div></div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+  </div> 
+</div>
+<div class="col-sm-6">
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+        Antlion</a>
+      </h4>
+    </div>
+    <div id="collapse1" class="panel-collapse collapse in">
+      <div class="panel-body">Known as the doodlebug, the larvae eats ants. The Antlion was called the doodlebug because the larvae creates doodles in the ground.</div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+        Scorpion</a>
+      </h4>
+    </div>
+    <div id="collapse2" class="panel-collapse collapse">
+      <div class="panel-body">Scorpions are considered Arachnids and are great survivors. The only thing they can't survive without is soil.</div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+        Cranefly</a>
+      </h4>
+    </div>
+    <div id="collapse3" class="panel-collapse collapse">
+      <div class="panel-body">Mistakened for a mosquito, these flies are about 1.5 inches long with long fragile legs.</div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+<br>
+<br>
+<div class="col-sm-6">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="http://i1.wp.com/listverse.com/wp-content/uploads/2013/03/scorpionfly.jpg?resize=600%2C309" alt="Insect">
+      <div class="carousel-caption">
+          <h3>Scorpionfly</h3>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="http://i1.wp.com/listverse.com/wp-content/uploads/2013/03/Screen-Shot-2013-03-10-at-5.36.53-PM.jpg?resize=600%2C381" alt="Insect">
+      <div class="carousel-caption">
+          <h3>Extatosoma Tiaratum</h3>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="http://i0.wp.com/listverse.com/wp-content/uploads/2013/03/5587004-lg.jpg?resize=600%2C900" alt="Insect">
+      <div class="carousel-caption">
+          <h3>Devil's Flower Mantis</h3>
+      </div>
+    </div>
+
+  </div>
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</body>
+</html>
